@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1173DF329A48BE10074D367 /* HotelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1173DF229A48BE10074D367 /* HotelListViewController.swift */; };
+		C1173DF529A498350074D367 /* hotelAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1173DF429A498350074D367 /* hotelAPI.swift */; };
+		C1173DF729A4BCB20074D367 /* listCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1173DF629A4BCB20074D367 /* listCell.swift */; };
+		C17232FF29A3472D00F9472C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17232FE29A3472D00F9472C /* SearchViewController.swift */; };
+		C185628B2996042900EEED70 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C185628A2996042900EEED70 /* APICaller.swift */; };
+		C1873BE229A5E67C008CDD86 /* dscViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1873BE129A5E67C008CDD86 /* dscViewController.swift */; };
+		C1BFDA4B299509F90023FCB4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BFDA4A299509F90023FCB4 /* SignUpViewController.swift */; };
+		C1BFDA4D29950A200023FCB4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BFDA4C29950A200023FCB4 /* LoginViewController.swift */; };
+		C1BFDA4F29950A490023FCB4 /* hotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BFDA4E29950A490023FCB4 /* hotelViewController.swift */; };
+		C1BFDA512995134B0023FCB4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1BFDA502995134B0023FCB4 /* GoogleService-Info.plist */; };
+		C1BFDA54299516580023FCB4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C1BFDA53299516580023FCB4 /* FirebaseAuth */; };
+		C1C8A0D7299AA91D00FF54CA /* hotel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1C8A0D6299AA91D00FF54CA /* hotel.mp4 */; };
+		C1C8A0DA299AAC2500FF54CA /* TableCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C8A0D9299AAC2500FF54CA /* TableCollectionViewCell.swift */; };
+		C1C8A0DC299AAC6300FF54CA /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C8A0DB299AAC6300FF54CA /* CollectionTableViewCell.swift */; };
+		C1C8A0DE299AAD0A00FF54CA /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C8A0DD299AAD0A00FF54CA /* ContentViewController.swift */; };
+		C1C8A100299AC75800FF54CA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C8A0FF299AC75800FF54CA /* Models.swift */; };
 		C1DE89932994FC0D002C5111 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DE89922994FC0D002C5111 /* AppDelegate.swift */; };
 		C1DE89952994FC0D002C5111 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DE89942994FC0D002C5111 /* SceneDelegate.swift */; };
 		C1DE89972994FC0D002C5111 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DE89962994FC0D002C5111 /* ViewController.swift */; };
@@ -16,6 +32,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C1173DF229A48BE10074D367 /* HotelListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelListViewController.swift; sourceTree = "<group>"; };
+		C1173DF429A498350074D367 /* hotelAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hotelAPI.swift; sourceTree = "<group>"; };
+		C1173DF629A4BCB20074D367 /* listCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listCell.swift; sourceTree = "<group>"; };
+		C17232FE29A3472D00F9472C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C185628A2996042900EEED70 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		C1873BE129A5E67C008CDD86 /* dscViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dscViewController.swift; sourceTree = "<group>"; };
+		C1BFDA4A299509F90023FCB4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C1BFDA4C29950A200023FCB4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C1BFDA4E29950A490023FCB4 /* hotelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hotelViewController.swift; sourceTree = "<group>"; };
+		C1BFDA502995134B0023FCB4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C1C8A0D6299AA91D00FF54CA /* hotel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hotel.mp4; sourceTree = "<group>"; };
+		C1C8A0D9299AAC2500FF54CA /* TableCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCollectionViewCell.swift; sourceTree = "<group>"; };
+		C1C8A0DB299AAC6300FF54CA /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		C1C8A0DD299AAD0A00FF54CA /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		C1C8A0FF299AC75800FF54CA /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		C1DE898F2994FC0D002C5111 /* hotelapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hotelapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DE89922994FC0D002C5111 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1DE89942994FC0D002C5111 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,12 +62,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1BFDA54299516580023FCB4 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1C8A0D8299AAAD600FF54CA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C1C8A0D9299AAC2500FF54CA /* TableCollectionViewCell.swift */,
+				C1C8A0DB299AAC6300FF54CA /* CollectionTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		C1DE89862994FC0D002C5111 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +97,27 @@
 		C1DE89912994FC0D002C5111 /* hotelapp */ = {
 			isa = PBXGroup;
 			children = (
+				C1C8A0D8299AAAD600FF54CA /* Cells */,
+				C1C8A0D6299AA91D00FF54CA /* hotel.mp4 */,
 				C1DE89922994FC0D002C5111 /* AppDelegate.swift */,
 				C1DE89942994FC0D002C5111 /* SceneDelegate.swift */,
 				C1DE89962994FC0D002C5111 /* ViewController.swift */,
+				C1BFDA4A299509F90023FCB4 /* SignUpViewController.swift */,
+				C1BFDA4C29950A200023FCB4 /* LoginViewController.swift */,
+				C1BFDA4E29950A490023FCB4 /* hotelViewController.swift */,
+				C185628A2996042900EEED70 /* APICaller.swift */,
+				C1C8A0DD299AAD0A00FF54CA /* ContentViewController.swift */,
 				C1DE89982994FC0D002C5111 /* Main.storyboard */,
 				C1DE899B2994FC0E002C5111 /* Assets.xcassets */,
 				C1DE899D2994FC0E002C5111 /* LaunchScreen.storyboard */,
 				C1DE89A02994FC0E002C5111 /* Info.plist */,
+				C1BFDA502995134B0023FCB4 /* GoogleService-Info.plist */,
+				C1C8A0FF299AC75800FF54CA /* Models.swift */,
+				C17232FE29A3472D00F9472C /* SearchViewController.swift */,
+				C1173DF229A48BE10074D367 /* HotelListViewController.swift */,
+				C1173DF429A498350074D367 /* hotelAPI.swift */,
+				C1873BE129A5E67C008CDD86 /* dscViewController.swift */,
+				C1173DF629A4BCB20074D367 /* listCell.swift */,
 			);
 			path = hotelapp;
 			sourceTree = "<group>";
@@ -83,6 +138,9 @@
 			dependencies = (
 			);
 			name = hotelapp;
+			packageProductDependencies = (
+				C1BFDA53299516580023FCB4 /* FirebaseAuth */,
+			);
 			productName = hotelapp;
 			productReference = C1DE898F2994FC0D002C5111 /* hotelapp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +169,9 @@
 				Base,
 			);
 			mainGroup = C1DE89862994FC0D002C5111;
+			packageReferences = (
+				C1BFDA52299516580023FCB4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = C1DE89902994FC0D002C5111 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +187,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1DE899F2994FC0E002C5111 /* LaunchScreen.storyboard in Resources */,
+				C1C8A0D7299AA91D00FF54CA /* hotel.mp4 in Resources */,
+				C1BFDA512995134B0023FCB4 /* GoogleService-Info.plist in Resources */,
 				C1DE899C2994FC0E002C5111 /* Assets.xcassets in Resources */,
 				C1DE899A2994FC0D002C5111 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +201,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C8A100299AC75800FF54CA /* Models.swift in Sources */,
+				C1C8A0DE299AAD0A00FF54CA /* ContentViewController.swift in Sources */,
+				C1C8A0DA299AAC2500FF54CA /* TableCollectionViewCell.swift in Sources */,
+				C1C8A0DC299AAC6300FF54CA /* CollectionTableViewCell.swift in Sources */,
 				C1DE89972994FC0D002C5111 /* ViewController.swift in Sources */,
 				C1DE89932994FC0D002C5111 /* AppDelegate.swift in Sources */,
+				C17232FF29A3472D00F9472C /* SearchViewController.swift in Sources */,
+				C1BFDA4B299509F90023FCB4 /* SignUpViewController.swift in Sources */,
+				C1173DF729A4BCB20074D367 /* listCell.swift in Sources */,
+				C185628B2996042900EEED70 /* APICaller.swift in Sources */,
+				C1BFDA4F29950A490023FCB4 /* hotelViewController.swift in Sources */,
+				C1873BE229A5E67C008CDD86 /* dscViewController.swift in Sources */,
+				C1BFDA4D29950A200023FCB4 /* LoginViewController.swift in Sources */,
 				C1DE89952994FC0D002C5111 /* SceneDelegate.swift in Sources */,
+				C1173DF329A48BE10074D367 /* HotelListViewController.swift in Sources */,
+				C1173DF529A498350074D367 /* hotelAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +363,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9G9TDFD86;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = hotelapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -294,6 +371,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +392,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9G9TDFD86;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = hotelapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,6 +400,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,6 +436,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C1BFDA52299516580023FCB4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C1BFDA53299516580023FCB4 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1BFDA52299516580023FCB4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C1DE89872994FC0D002C5111 /* Project object */;
 }
